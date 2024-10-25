@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+    font-size: 1.5em;
+    color: #ffe0b3;
+}
+
+/* Container */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.container .content {
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.container .content img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    font-size: 1.2em; /* Increase font size */
+    line-height: 1.6; /* Increase line spacing */
+   }
+
+
+
+#popup h2 {
+    font-size: 1.5em; /* Increase font size for heading */
+    margin-bottom: 10px;
+}
+
+#popup p {
+    font-size: 1.2em; /* Increase font size for paragraph text */
+    line-height: 1.6; /* Increase line spacing for paragraph text */
+}
+button {
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding */
+    font-size: 1em; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* Spacing above the button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+#blur.active {
+    filter: blur(5px);
+    pointer-events: none;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
